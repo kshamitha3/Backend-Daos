@@ -1,0 +1,33 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+#Restaurants that will be displayed to the users
+GET      /list_of_all_restaurants                                        controllers.ApplicationController.getRestaurantsList()
+GET      /restaurants_by_id/:id                                          controllers.ApplicationController.getRestaurantByID(id: Integer)
+
+
+#Restaurants in each collection
+GET      /restaurants_by_collection/:collection                         controllers.ApplicationController.getRestaurantsByCollectionType(collection: String)
+
+#CRUD operations that will be performed by the administrator
+POST     /rest                                                          controllers.ApplicationController.createRestAdmin()
+PUT      /update_a_restaurant/:id                                       controllers.ApplicationController.updateRestAdmin(id:Integer)
+DELETE   /rest/:id                                                      controllers.ApplicationController.deleteRestAdmin(id:Integer)
+
+
+#Get all Restaurants based on a filter that searches by Restaurant Name or Restaurant Area
+GET     /search_restaurants_by_name_area                                controllers.ApplicationController.getRestaurantsFromSearchFilter(area: java.lang.String ?=null , restaurantname: java.lang.String ?=null)
+
+
+#The members can be retrieved, created, updated and deleted
+#GET      /members_list                                                  controllers.MemberController.getMembersList()
+#GET      /members/:id                                                   controllers.MemberController.getMemberByID(id: Integer)
+GET      /authenticate_member_by_username_password/:username                         controllers.MemberController.getMemberByUsernamePassword(username: java.lang.String , password: java.lang.String ?=null, role : String ?=null)
+POST     /create_member                                                     controllers.MemberController.createMember()
+#PUT      /update_members/:id                                            controllers.MemberController.updateMember(id:Integer)
+#DELETE   /delete_member/:id                                             controllers.MemberController.deleteMember(id:Integer)

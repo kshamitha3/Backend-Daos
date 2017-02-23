@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\application.conf,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\conf.iml,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\conf.iml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\logback.xml,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\META-INF,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\META-INF)[0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\routes,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Backend-Java-MyBranch\MyBranch\conf\META-INF\persistence.xml,C:\Backend-Java-MyBranch\MyBranch\target\scala-2.11\classes\META-INF\persistence.xml)[0m

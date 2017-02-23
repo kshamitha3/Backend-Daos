@@ -1,0 +1,10 @@
+2017-02-23 12:22:51,362 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2017-02-23 12:22:51,617 [INFO] from play.api.db.HikariCPConnectionPool in ForkJoinPool-1-worker-1 - datasource [default] bound to JNDI as DefaultDS
+2017-02-23 12:22:51,649 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:mysql://localhost/mavericks_project
+2017-02-23 12:22:53,573 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2017-02-23 12:25:02,718 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2017-02-23 12:25:02,878 [INFO] from application in application-akka.actor.default-dispatcher-10 - Creating Pool for datasource 'default'
+2017-02-23 12:25:02,909 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-10 - datasource [default] bound to JNDI as DefaultDS
+2017-02-23 12:25:02,925 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-10 - Database [default] connected at jdbc:mysql://localhost/mavericks_project
+2017-02-23 12:25:03,188 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-10 - Application started (Dev)
+2017-02-23 15:29:24,459 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-2 housekeeper - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h27m48s456ms684µs647ns).
